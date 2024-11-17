@@ -269,7 +269,10 @@ section{
         font-size: 60px;
     }
     @media (max-width: $breakpoint-sm) {
-        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: -20px;
+        margin-right: 0;
+        font-size: 40px;
     }
 }
 .alternate-section-title{
