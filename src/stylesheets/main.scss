@@ -20,9 +20,15 @@ $primary: $yellow;
 $secondary: $orange;
 
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body{
     background-color: $light-gray;
     font-family: "Readex Pro", sans-serif;
+    overflow-x: hidden;
+}
+html, body {
     overflow-x: hidden;
 }
 
