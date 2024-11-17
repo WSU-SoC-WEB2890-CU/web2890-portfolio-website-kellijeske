@@ -321,6 +321,19 @@ section{
     @media (max-width: $breakpoint-sm) {
         padding: 20px;
     }
+    div{
+        h1{
+            @media (max-width: $breakpoint-lg) {
+                padding-top: 80px;
+            }
+            @media (max-width: $breakpoint-md) {
+                padding-top: 70px;
+            }
+            @media (max-width: $breakpoint-sm) {
+                padding-top: 50px;
+            }
+        }
+    }
 }
 
 div.section-content > div > p{
@@ -503,7 +516,10 @@ div.section-content > div > p{
     @media (max-width: $breakpoint-xlg) {
         border-radius: 0;
     }
-
+    @media (max-width: $breakpoint-md) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 .sm-project-thumbnail{
