@@ -182,6 +182,11 @@ section{
     padding: 40px;
 }
 
+div.section-content > div > p{
+    line-height: 3rem;
+    margin-left: 10px;
+}
+
 .alternate-section-content{
     padding: 40px;
     background-color: $yellow-orange;
@@ -422,7 +427,22 @@ footer > h2{
 }
 
 .project-image{
-    height: 700px;
+    height: 900px;
+    width: 500px;
+    object-fit: cover;
+}
+.project-image-2{
+    height: 800px;
+    width: 500px;
+    object-fit: cover;
+}
+.project-image-3{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+.project-image-4{
+    height: 500px;
     width: 500px;
     object-fit: cover;
 }
