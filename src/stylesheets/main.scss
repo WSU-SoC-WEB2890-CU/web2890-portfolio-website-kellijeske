@@ -162,6 +162,11 @@ hr{
 nav {
     background-color: $gray;
     color: $yellow;
+
+    @media (max-width: $breakpoint-md) {
+        background-color: $black;
+        margin-top: 40px;
+    }
 }
 
 .collapse {
@@ -204,6 +209,20 @@ nav {
 
 }
 
+
+
+.navbar-toggler {
+    background-color: $yellow; 
+    border: 2px solid $black; 
+    border-radius: 40px; 
+    height: 60px;
+    width: 60px;
+
+    &:hover {
+        background-color: darken($yellow, 10%);
+        border-color: lighten($black, 10%); 
+    }
+}
 
 
 
@@ -628,7 +647,7 @@ div.section-content > div > p{
             width: 200px;
     
             &:hover {
-                background-color: #555; /* Slightly lighter on hover */
+                background-color: #555; 
             }
         }
       }
