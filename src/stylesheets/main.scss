@@ -818,19 +818,38 @@ a{
     width: 200px;
     transition: 0.2s;
     border: 2px solid $orange;
+    &:active{
+        opacity: .5;
+    }
+    &:hover, &:active{
+        background-color: $black;
+        background-position: 0 0;
+        color: $yellow-orange;
+        transform: scale(1.08); 
+    }
 }
 
-
-.btn-link:hover,
-.btn-link:active {
+.alt-btn-link{
     background-color: $black;
-    background-position: 0 0;
-    color: $yellow-orange;
-    transform: scale(1.08); 
+    color: $yellow;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    transition: 0.2s;
+    border: 2px solid $orange;
+    &:active{
+        opacity: .5;
+    }
+    &:hover, &:active{
+        background-color: $yellow-orange;
+        background-position: 0 0;
+        color: $black;
+        transform: scale(1.08); 
+    }
 }
 
 
-.btn-link:active {
-    opacity: .5;
-}
+
 
