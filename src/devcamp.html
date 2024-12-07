@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Portfolio Website Kelli Jeske">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100..900&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <header class="top-header">
+    <h2>KELLI JESKE PORTFOLIO</h2>
+  </header>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg menu shadow sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html#about">About</a>
+          <a class="nav-link" href="index.html#skills">Skills</a>
+          <a class="nav-link" href="index.html#caseStudy">Case Study</a>
+          <a class="nav-link" href="index.html#projects">Projects</a>
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Project Section -->
+    <section class="about-me" id="about">
+      <div class="section-header">
+        <h1 class="section-title">Project 4</h1>
+      </div>
+      <div class="section-content row">
+        <div class="col h-100 d-flex flex-column align-items-center justify-content-center gap-3">
+          <img src="images/devcamp-fries-desktop.png" alt="Desktop Mockup" class="img-fluid rounded">
+          <img src="images/devcamp-fries-desktop-2.png" alt="Desktop Mockup" class="img-fluid rounded">
+        </div>
+        
+        <div class="col">
+            <h1>DevCamp Fries</h1>
+            <hr>
+          <p>As part of the Devcamp coding bootcamp, I created a simple but visually appealing website designed to teach the fundamentals of HTML and CSS. The project consists of two main pages: a landing page and a contact page featuring a basic form. While the design was not original, the focus was on learning essential web development concepts and practicing responsive design techniques. This project helped me build a solid foundation in front-end development while producing a clean, professional-looking site.</p>
+          <p>On a side note: I enjoyed creating the design. I think it looks lovely!</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- More Projects -->
+    <section class="more-projects black-bg">
+      <div class="section-header">
+        <h1 class="section-title">MORE PROJECTS</h1>
+      </div>
+      <div class="black-bg border-padding">
+        <div class="more-projects-section-content section-content row">
+            <a href="cardeal.html" class="hover-expand">
+                <div class="sm-project-thumbnail cardel-thumbnail div1">
+                    <p class="project-thumbnail-label">Cardeal Design</p>
+                </div>
+            </a>
+            <a href="wavy-portfolio.html" class="hover-expand">
+                <div class="sm-project-thumbnail wavy-portfolio-thumbnail div2">
+                    <p class="project-thumbnail-label">Wavy Portfolio Concept</p>
+                </div>
+            </a>
+            <a href="css-animation.html" class="hover-expand">
+                <div class="sm-project-thumbnail css-animation-thumbnail div3">
+                    <p class="project-thumbnail-label">CSS Animation</p>
+                </div>
+            </a>
+            <a href="devcamp.html" class="hover-expand">
+                <div class="sm-project-thumbnail devcamp-fries-thumbnail div4">
+                    <p class="project-thumbnail-label">Devcamp Fries</p>
+                </div>
+            </a>
+            <a href="beautiful-light.html" class="hover-expand">
+                <div class="sm-project-thumbnail beautiful-light-thumbnail div5">
+                    <p class="project-thumbnail-label">Beautiful Light</p>
+                </div>
+            </a>
+            <a href="website-replication.html" class="hover-expand">
+                <div class="sm-project-thumbnail website-replication-thumbnail div6">
+                    <p class="project-thumbnail-label">Website Replication</p>
+                </div>
+            </a>
+            <div class="sm-project-thumbnail div7">
+                <h2 class="text-end more-projects-case-study">CASE<br>STUDY</h2>
+            </div>
+            <a href="case-study.html" class="hover-expand div8">
+                <div class="sm-project-thumbnail mickey-case-study-thumbnail div8">
+                    <p class="project-thumbnail-label">Mickey's Custom Labels</p>
+                </div>
+            </a>
+            
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="alternate-section-header">
+          <div class="black-bar"></div>
+          <h1 class="alternate-section-title">CONTACT</h1>
+        </div>
+        <div class="alternate-section-content row">
+          <form action="#" method="post" class="column contact-form">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <label for="email">Email Address</label>
+      
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <label for="subject">Subject</label>
+      
+            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+            <label for="message">Message</label>
+      
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <h2>KELLI JESKE PORTFOLIO</h2>
+    
+  </footer>
+
+
+
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+</html>
